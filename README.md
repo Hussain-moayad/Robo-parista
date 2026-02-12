@@ -1,2 +1,2 @@
-# Robo-parista
+# Robo-parista.py
 print("heelo im your tobo parista ") order = ('coffee \n' 'large coffee\n ''black coffee\n') name = input('name??') if name == 'ben' :     print ("get out")     exit() else :     print ('welcome') menu = 'coffee \n' 'large coffee\n ''black coffee' print ("what would you like from our menu  \n\n" ) order = input(order) print ("ok "+ name   + ' your order is running') if order == 'coffee' :     price = 5 elif order == 'black coffee' :     price = 9 elif order == 'large coffee' :     price = 12 else :     print('sorry we dont have it') print ('that is yout order it costs\n' +str(price))
